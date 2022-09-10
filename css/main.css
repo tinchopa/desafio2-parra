@@ -13,8 +13,7 @@ footer div {
 footer p {
   padding: 5px; }
 
-.texto-footer {
-  font-size: 22px; }
+
 
 * {
   margin: 0px;
@@ -23,6 +22,8 @@ footer p {
   font-family: 'Secular One', sans-serif;
   color: black;
   font-size: 20px; }
+
+
 
 body {
   background: #00c6bd;
@@ -118,4 +119,7 @@ ul li a:hover {
     display: flex;
     justify-content: space-between; }
   footer div img {
-    width: 100px; } }
+    width: 100px; } 
+  .texto-footer {
+  font-size: 22px; }
+}
