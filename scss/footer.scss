@@ -1,4 +1,4 @@
-
+/*FOOTER*/
 footer {
     padding-top: 10px;
     display: flex; }
@@ -13,8 +13,8 @@ footer {
   
   footer p {
     padding: 5px;
-}
 
-.texto-footer{
-    font-size: $letra-footer;
-   }
+  .texto-footer{
+      font-size: map-get($map: $font-size, $key:font-m );
+     }
+}
